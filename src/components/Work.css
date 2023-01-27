@@ -1,0 +1,141 @@
+.work{
+    padding: 170px;
+    /* position: absolute; */
+
+    z-index: -1;
+    /* color: antiquewhite; */
+}
+h2{
+    color: aliceblue;
+}
+.heading_work{
+    color: white;
+    background: #5452e0; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5452e0, #54a3f8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5452e0, #54a3f8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-left: -60%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5rem;
+}
+.line3{
+    position: absolute;
+    width:300px;
+    height: 4px;
+    /* font-weight: 100; */
+    background-color: aliceblue;
+    /* transform: rotate(90deg); */
+    left:650px;
+    margin-top: -2%;
+    /* top: 100%; */
+    
+}
+.line4{
+    position: absolute;
+    width:300px;
+    height: 4px;
+    /* font-weight: 100; */
+    background-color: aliceblue;
+    transform: rotate(90deg);
+    left:8px;
+    margin-top: 11%;
+    /* top: 100%; */
+    
+}
+.details{
+    display: flex;
+    
+    
+}
+.right_work{
+    padding: 50px;
+    color: aliceblue;
+    width: 100%;
+}
+.main_titile{
+    margin-left:-500px;
+    text-align: left;
+    /* position: absolute; */
+
+}
+.left_work{
+    padding: 50px;
+    color: aliceblue;
+    width: 50%;
+    margin-left: -1%;
+    /* margin-bottom: 20px; */
+    /* position: relative; */
+}
+
+.bkl{
+    margin-bottom: 20px;
+}
+.bkl:hover{
+    background-color: grey;
+}
+
+
+.niv{
+    text-align: left;
+    width:70%;
+}
+.leftbtn{
+    width: 300px;
+    background-color:aquamarine;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+.leftbtn:hover{
+    background-color: beige;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .work{
+        padding: 0px;
+    }
+    .line3{
+        display: none;
+        margin-left: -145%;
+        width: 300px;
+        margin-top: 27%;
+    }
+    .line4{
+        display: none;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        /* margin-left: -4%; */
+        margin-top: 5%;
+    }
+    .heading_work{
+        font-size: 40px;
+        margin-top: 80%;
+        margin-left: auto;
+    
+    }
+    .left_work{
+        display: flex;
+        /* width: 50%; */
+    }
+    .bkl{
+        margin-left: 12%;
+    }
+    .right_work{
+        margin-top: -12%;
+    }
+    .ulw{
+        width: 100%;
+        font-size: 18px;
+        margin-left: 5%;
+    }
+  
+
+}
