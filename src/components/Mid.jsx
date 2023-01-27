@@ -1,6 +1,6 @@
 import React from 'react'
 import './Mid.css'
-// import Lottie from 'react-lottie';
+import Lottie from 'react-lottie';
 import * as animationData from './dev.json'
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
@@ -9,14 +9,14 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const Mid = () => {
-    // const defaultOptions = {
-    //     loop: true,
-    //     autoplay: true, 
-    //     animationData: animationData,
-    //     rendererSettings: {
-    //       preserveAspectRatio: 'xMidYMid slice'
-    //     }
-    //   };
+    const defaultOptions = {
+        loop: true,
+        autoplay: true, 
+        animationData: animationData,
+        rendererSettings: {
+          preserveAspectRatio: 'xMidYMid slice'
+        }
+      };
     AOS.init();
   
     return (
@@ -49,11 +49,11 @@ const Mid = () => {
                 </div>
             </div>
             <div className="right">
-            {/* <Lottie className="lot" options={defaultOptions}
-              height={400}
-              width={400}
+            <Lottie className="lot" options={defaultOptions}
+            //   height={400}
+            //   width={400}
               
-              /> */}
+              />
             </div>
         </div>
         
